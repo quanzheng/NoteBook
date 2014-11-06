@@ -1,0 +1,22 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define redColor [UIColor colorWithRed:0.900 green:0.379 blue:0.434 alpha:1.000]
+#define origainColor [UIColor colorWithRed:1.000 green:0.623 blue:0.011 alpha:1.000]
+#define skyBlueColor [UIColor colorWithRed:0.065 green:0.885 blue:1.000 alpha:1.000]
+#define greenColor [UIColor colorWithRed:0.437 green:0.917 blue:0.195 alpha:1.000]
+
+#endif
