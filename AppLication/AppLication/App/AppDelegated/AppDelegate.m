@@ -15,6 +15,7 @@
 @implementation AppDelegate
 {
     EnterPasswordViewController *enterVC;
+    //  这是一段测试代码
     
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
